@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>เกมสำหรับคู่รัก</title>
+
+  <!-- main style -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="shell center">
+
+      <!-- TITLE -->
+      <h1>เกมสำหรับคู่รัก</h1>
+      <p class="subtle">ตอบคำถาม แล้วดูว่าเราเข้ากันแค่ไหน</p>
+
+      <!-- LOVE GAME CARD -->
+      <div class="love-card" id="gameCard">
+        <h4 id="questionText"></h4>
+        <p class="subtle" id="answerHint"></p>
+
+        <div class="btn-row column" id="choices"></div>
+      </div>
+
+      <!-- BACK BUTTON -->
+      <div style="margin-top:20px;">
+        <a class="btn secondary" href="menu.html">ย้อนกลับ</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- GAME SCRIPT -->
+  <script src="js/couple-game.js"></script>
+
+</body>
+</html>
